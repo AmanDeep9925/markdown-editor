@@ -22,7 +22,7 @@ class markdown extends Component {
     return (
       <div className='container'>
         <div className='input'>
-          <h3>Input</h3>
+          <h2>Input</h2>
           <textarea
             className='input-text'
             onChange={this.handleChange}
@@ -30,7 +30,7 @@ class markdown extends Component {
           />
         </div>
         <div className='output'>
-          <h3>MarkDown</h3>
+          <h2>MarkDown</h2>
           <div
             dangerouslySetInnerHTML={this.getRawMarkup()}
             className='output-text'

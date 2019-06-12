@@ -1,8 +1,8 @@
 body {
   font: 20px sans-serif;
   margin: 5 auto;
-  background-color: #313131;
-  color: #fff;
+  color: white;
+  background: linear-gradient(to right, #1f4037, #99f2c8);
 }
 
 .container {
@@ -21,7 +21,7 @@ body {
 .input-text {
   min-height: 400px;
   border: 3px solid white;
-  background: transparent;
+  background-color: #232323;
   color: white;
   transition: border 0.3s;
 }
@@ -36,16 +36,18 @@ body {
 }
 
 .output-text {
-  background: #424242;
+  background: #232323;
   overflow-wrap: break-word;
   word-wrap: break-word;
   hyphens: auto;
+  color: #fff;
 }
 
 .input-text:focus {
-  border: 2px solid black;
+  border: 2px solid;
 }
 
-h3 {
+h2 {
   font-weight: normal;
+  text-align: center;
 }
