@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Remarkable from "remarkable";
 
-
 class markdown extends Component {
   constructor(props) {
     super(props);
@@ -30,11 +29,12 @@ class markdown extends Component {
             defaultValue={this.state.value}
           />
         </div>
-        <div className="output">
-            <h3>MarkDown</h3>
-            <div dangerouslySetInnerHTML={this.getRawMarkup()}
-                    className="output-text">
-            </div>
+        <div className='output'>
+          <h3>MarkDown</h3>
+          <div
+            dangerouslySetInnerHTML={this.getRawMarkup()}
+            className='output-text'
+          />
         </div>
       </div>
     );
